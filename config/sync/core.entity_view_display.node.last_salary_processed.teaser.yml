@@ -1,0 +1,36 @@
+uuid: 18e3adbb-3a90-4890-b799-ad9490ec964f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.last_salary_processed.body
+    - field.field.node.last_salary_processed.field_employee_name2
+    - field.field.node.last_salary_processed.field_last_leave_taken
+    - field.field.node.last_salary_processed.field_last_salary_processed
+    - node.type.last_salary_processed
+  module:
+    - text
+    - user
+id: node.last_salary_processed.teaser
+targetEntityType: node
+bundle: last_salary_processed
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_employee_name2: true
+  field_last_leave_taken: true
+  field_last_salary_processed: true

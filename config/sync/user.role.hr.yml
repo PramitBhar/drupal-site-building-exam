@@ -1,0 +1,10 @@
+uuid: 7d1f8f1c-47db-4346-84d7-2551081eb462
+langcode: en
+status: true
+dependencies: {  }
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'administer users'

@@ -1,0 +1,29 @@
+uuid: c890f77e-09e5-4033-9bc6-eb768e02c4ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_name2
+    - node.type.last_salary_processed
+    - node.type.profiledata
+id: node.last_salary_processed.field_employee_name2
+field_name: field_employee_name2
+entity_type: node
+bundle: last_salary_processed
+label: 'Employee Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      profiledata: profiledata
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

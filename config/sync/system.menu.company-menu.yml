@@ -1,0 +1,8 @@
+uuid: ca231120-b3db-449b-9f2f-cb4fb33ab003
+langcode: en
+status: true
+dependencies: {  }
+id: company-menu
+label: 'Company menu'
+description: ''
+locked: false

@@ -1,0 +1,58 @@
+uuid: a63dd564-470f-43e0-b382-20cf4f925869
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.last_salary_processed.body
+    - field.field.node.last_salary_processed.field_employee_name2
+    - field.field.node.last_salary_processed.field_last_leave_taken
+    - field.field.node.last_salary_processed.field_last_salary_processed
+    - node.type.last_salary_processed
+  module:
+    - datetime
+    - text
+    - user
+id: node.last_salary_processed.default
+targetEntityType: node
+bundle: last_salary_processed
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_employee_name2:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_last_leave_taken:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_last_salary_processed:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: ada0d6bf-c6b7-4831-a68a-05ff781e02a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_lop
+field_name: field_lop
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
