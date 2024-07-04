@@ -1,0 +1,22 @@
+uuid: 1173b0f4-12fa-4831-80e6-4b62edfc80bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.attendance_statistics
+    - field.field.block_content.attendance_statistics.body
+  module:
+    - text
+id: block_content.attendance_statistics.default
+targetEntityType: block_content
+bundle: attendance_statistics
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

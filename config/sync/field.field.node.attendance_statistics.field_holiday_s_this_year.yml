@@ -1,0 +1,23 @@
+uuid: 90684f82-b67c-4301-aeec-52f1e958d9bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_holiday_s_this_year
+    - node.type.attendance_statistics
+id: node.attendance_statistics.field_holiday_s_this_year
+field_name: field_holiday_s_this_year
+entity_type: node
+bundle: attendance_statistics
+label: "Holiday's this year"
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

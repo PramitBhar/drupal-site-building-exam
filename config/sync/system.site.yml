@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 1461c273-3c31-47c5-9ef4-8c55d69d9160
+name: 'Innoraft Employee Management Portal'
+mail: pramit.bhar@innoraft.com
+slogan: ''
+page:
+  403: /node/8
+  404: /node/7
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

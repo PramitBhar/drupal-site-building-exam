@@ -1,0 +1,20 @@
+uuid: 7fc3200e-e7f4-4459-af99-2fd0685fd195
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_last_leave_taken
+field_name: field_last_leave_taken
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

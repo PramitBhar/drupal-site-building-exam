@@ -1,0 +1,23 @@
+uuid: 4696c7aa-f581-4c35-a23d-c618015f64d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_late_marks
+    - node.type.attendance_statistics
+id: node.attendance_statistics.field_late_marks
+field_name: field_late_marks
+entity_type: node
+bundle: attendance_statistics
+label: 'Late Marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

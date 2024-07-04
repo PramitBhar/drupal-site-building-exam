@@ -1,0 +1,21 @@
+uuid: c1fa2e50-b851-4f76-b789-3a58d14b286b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_leave_taken
+    - node.type.last_salary_processed
+  module:
+    - datetime
+id: node.last_salary_processed.field_last_leave_taken
+field_name: field_last_leave_taken
+entity_type: node
+bundle: last_salary_processed
+label: 'Last Leave Taken'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

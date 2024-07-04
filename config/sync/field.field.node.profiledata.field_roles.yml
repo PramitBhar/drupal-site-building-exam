@@ -1,0 +1,21 @@
+uuid: c81769e7-9be1-489a-afcb-0ffca4ba71ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_roles
+    - node.type.profiledata
+  module:
+    - options
+id: node.profiledata.field_roles
+field_name: field_roles
+entity_type: node
+bundle: profiledata
+label: Roles
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

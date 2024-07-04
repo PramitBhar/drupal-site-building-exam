@@ -1,0 +1,24 @@
+uuid: 7b3dee9c-f4ea-470f-bb64-254c852ab861
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.attendance_statistics
+  module:
+    - text
+id: node.attendance_statistics.body
+field_name: body
+entity_type: node
+bundle: attendance_statistics
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,24 @@
+uuid: d2ccc76a-7528-4b50-aa79-8a7dfd9eb83f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.last_salary_processed
+  module:
+    - text
+id: node.last_salary_processed.body
+field_name: body
+entity_type: node
+bundle: last_salary_processed
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

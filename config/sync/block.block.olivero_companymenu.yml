@@ -1,0 +1,25 @@
+uuid: 9f3038f0-ef07-42e7-ab7e-136812c5ec9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.company-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_companymenu
+theme: olivero
+region: hero
+weight: -7
+provider: null
+plugin: 'system_menu_block:company-menu'
+settings:
+  id: 'system_menu_block:company-menu'
+  label: 'Company menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

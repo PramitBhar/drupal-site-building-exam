@@ -1,0 +1,23 @@
+uuid: 43db1cbd-0485-4260-ba08-2bf5dc0c836a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lop
+    - node.type.attendance_statistics
+id: node.attendance_statistics.field_lop
+field_name: field_lop
+entity_type: node
+bundle: attendance_statistics
+label: LOP
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

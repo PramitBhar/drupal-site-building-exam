@@ -1,0 +1,77 @@
+uuid: 5c93da4c-edb4-4e88-bf63-61911a51a60d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.attendance_statistics.body
+    - field.field.node.attendance_statistics.field_employee_name
+    - field.field.node.attendance_statistics.field_holiday_s_this_year
+    - field.field.node.attendance_statistics.field_invalid_punches
+    - field.field.node.attendance_statistics.field_late_marks
+    - field.field.node.attendance_statistics.field_lop
+    - node.type.attendance_statistics
+  module:
+    - text
+    - user
+id: node.attendance_statistics.default
+targetEntityType: node
+bundle: attendance_statistics
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_employee_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_holiday_s_this_year:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_invalid_punches:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_late_marks:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_lop:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

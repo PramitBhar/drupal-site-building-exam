@@ -1,0 +1,40 @@
+uuid: 05d6ffcc-ba66-42d7-8c72-a594abf2c128
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.attendance_statistics.body
+    - field.field.node.attendance_statistics.field_employee_name
+    - field.field.node.attendance_statistics.field_holiday_s_this_year
+    - field.field.node.attendance_statistics.field_invalid_punches
+    - field.field.node.attendance_statistics.field_late_marks
+    - field.field.node.attendance_statistics.field_lop
+    - node.type.attendance_statistics
+  module:
+    - text
+    - user
+id: node.attendance_statistics.teaser
+targetEntityType: node
+bundle: attendance_statistics
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_employee_name: true
+  field_holiday_s_this_year: true
+  field_invalid_punches: true
+  field_late_marks: true
+  field_lop: true

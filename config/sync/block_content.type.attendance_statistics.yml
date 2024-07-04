@@ -1,0 +1,8 @@
+uuid: 0cfc60d9-bf21-43fe-ad47-e2edf2e16b0c
+langcode: en
+status: true
+dependencies: {  }
+id: attendance_statistics
+label: 'Attendance Statistics'
+revision: false
+description: null

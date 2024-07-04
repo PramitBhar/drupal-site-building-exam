@@ -1,0 +1,23 @@
+uuid: cde96f1d-dbd5-46ce-907f-1d9ddfebf0a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_invalid_punches
+    - node.type.attendance_statistics
+id: node.attendance_statistics.field_invalid_punches
+field_name: field_invalid_punches
+entity_type: node
+bundle: attendance_statistics
+label: 'Invalid Punches'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
